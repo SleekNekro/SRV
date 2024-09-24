@@ -29,6 +29,7 @@ public class Ejer6 extends JFrame {
 
         JButton button3 = new JButton("Mega Button3");
         button3.setBounds(0,400, 400,200);
+        button3.addActionListener(_-> System.out.println("Button 3"));
         add(button3);
 
         setSize(400,600);
